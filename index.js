@@ -6,8 +6,6 @@ const app = express()
 const cookie = "add your cookie here"
 const port = 8808
 
-console.log(`made by Dhirk07`)
-console.log(`github: https://github.com/Dhirk07`)
 async function buyasset(assetid) {
   try {
     const UserCurrent = await noblox.setCookie(cookie) 
